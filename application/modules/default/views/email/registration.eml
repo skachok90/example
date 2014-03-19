@@ -1,0 +1,16 @@
+<html>
+	<head></head>
+	<body>
+		<p>
+			You are now registered with <a href="<?php echo $site['url'] ?>"><?php echo $site['name'] ?></a>.
+		</p>
+		<p>
+			Login information:<br />
+			<strong>Email:</strong> <?php echo $data[email] ?> <br />
+			<strong>Password:</strong> Encrypted
+		</p>
+		<p>
+			<a href="<?php echo $site['url'] ?>"><?php echo $site['host'] ?></a>.
+		</p>
+	</body>
+</html>

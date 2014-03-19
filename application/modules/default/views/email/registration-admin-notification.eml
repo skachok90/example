@@ -1,0 +1,13 @@
+<html>
+	<head></head>
+	<body>
+		<p>
+			New user was registred.
+		</p>
+		<p>
+			Login information:<br />
+			<strong>Email:</strong> <?php echo $data[email] ?> <br />
+			<strong>Password:</strong> Encrypted
+		</p>
+	</body>
+</html>
